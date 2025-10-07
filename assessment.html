@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding planners Website</title>
+    <style>
+       body{
+        background-color: rgba(255, 182, 193, 0.274);
+       }
+       header{
+        background-color: pink;
+        color: white;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        color: white;
+        text-shadow: 2px yellow;
+        height: 80px;
+        margin: -5px;
+        justify-content: space-between;
+       }
+       nav{
+          margin-top: 30px;
+          margin-right: 20px;
+          
+       }
+       nav button{
+        background-color: greenyellow;
+        border-radius: 20px;
+        height: 25px;
+        border: none;
+       }
+       .main{
+        background-image:url(https://onehorizonproductions.com/wp-content/uploads/2022/10/Whitepetals-3-849.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 600px;
+        margin-top: 5px;
+        margin-right: -12px;
+        margin-left: -10px;
+       }
+       .content{
+        display: flex;
+        flex-direction: column;
+        color: white;
+        margin-left: 200px;
+        text-align: center;
+        width: 700px;
+        padding-top: 105px;
+        height: 400px;
+       
+       }
+       .content h4{
+        font-size: 30px;
+        font-weight: bolder;
+       }
+       .content h1{
+        font-size: 60px;
+        margin-top: -10px;
+        font-weight: bolder;
+       }
+       .content button{
+        width: 200px;
+        height: 60px;
+        border-radius: 20px;
+        margin-left: 260px;
+        font-size: 18px;
+        font-weight: bolder;
+        background-color: palevioletred;
+        color: white;
+       }
+       footer{
+        background-color: rgba(0, 0, 0, 0.231);
+        text-align: center;
+        color: white;
+        height: 150px;
+        align-items: center;
+       }
+       .box img{
+        margin-top: 35px;
+       }
+       .container{
+        height: 450px;
+        width: 1000px;
+        justify-content: space-between;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        color: red;
+        margin-left: 20px;
+        flex-wrap: wrap;
+       }
+       .box1{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        background-color: orange;
+        color: white;
+        box-shadow: 5px 5px 5px 5px black;
+        text-align: center;
+        border-radius: 20px;
+        top: 80px;
+        left: 30px;
+        border: 3px solid black;
+        height: 300px;
+        width: 250px;
+       }
+       .box1 img{
+        margin-left: 70px;
+       }
+       .sec{
+        margin-left: 15px;
+       }
+       .third{
+        margin-left: 15px;
+       }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>💕The Wedding Planners</h1>
+        <nav>
+          <button type="button">HOME<a href="#"></a></button>
+          <button type="button">ABOUT US<a href="#"></a></button>
+          <button type="button">VENUES<a href="#"></a></button>
+          <button type="button">SERVICES<a href="#"></a></button>
+          <button type="button">CONTACT US<a href="#"></a></button>
+        </nav>
+    </header>
+    <div class="main">
+     <div class="content">
+        <h4>Simple. Organized. Stress-Free.</h4>
+        <h1>The Easy Way to Plan Your Dream Day</h1>
+        <button type="button">Let's Get Started➡️</button>
+     </div>
+    </div>
+    <div class="container">
+        <h1>OUR SERVICES</h1>
+        <div class="box1">
+        <h2>Design</h2>
+        <img src="data:image/png;base64,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" alt="pic" height="100px" width="100px">
+        <p>Most brides and grooms to be have a somewhat clear vision of what they want their wedding to look like; the venue and location, the colours and the wedding décor etc.</p>
+        </div>
+        <div class="box1 sec">
+        <h2>Design</h2>
+        <img src="data:image/png;base64,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" alt="pic" height="100px" width="100px">
+        <p>Most brides and grooms to be have a somewhat clear vision of what they want their wedding to look like; the venue and location, the colours and the wedding décor etc.</p>
+        </div>
+    </div>
+    <footer>
+        <div class="box">
+            <img src="data:image/png;base64,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" alt="pic" height="60px" width="120px">
+            <p>©️ 2025 The wedding Planner</p>
+        </div>
+    </footer>
+</body>
+</html>
